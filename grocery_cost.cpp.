@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    // Store the price,quantity, and total cost. 
+    double itemPrice;
+    int quantity;
+    double totalCost;
+
+    //Ask the user for the item price and quantity. 
+    cout << "Enter the price ofo ne item: ";
+     cin >> itemPrice;
+
+    cout << "Enter the number of items: ";
+     cin >> quantity;
+
+    //Calculate and display the total cost.
+    totalCost = itemPrice * quantity;
+    cout << "Total cost: $" << totalCost << endl;
+    
+    return 0;
+}
